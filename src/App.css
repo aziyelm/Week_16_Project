@@ -65,14 +65,3 @@
     transform: rotate(360deg);
   }
 }
-
-/* STAR STYLING */
-
-input[type="radio"] {
-  display: none;
-}
-
-.star {
-  cursor: pointer;
-  transition: color 200ms;
-}

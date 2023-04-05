@@ -17,7 +17,7 @@ export default function About() {
                 </Card.Header>
                 <Card.Body>
                   <Card.Text>
-                    <h5>Crazi Fresh, Crazi Cheap, Crazi Delicious</h5>
+                    <strong>Crazi Fresh, Crazi Cheap, Crazi Delicious</strong><br/>
                     Serving up the CrAZiest Sushi in North Las Vegas! CrAZi
                     Sushi was founded by Aziyel Madrigal in 2023. We specialize
                     in quality AYCE sushi at an affordable price.
@@ -33,15 +33,12 @@ export default function About() {
                 </Card.Header>
                 <Card.Body>
                   <Card.Text>
-                    <h5>
-                      {" "}
-                      123 Crazi Sushi Ave <br /> North Las Vegas, NV, 89084{" "}
-                    </h5>
-                    <p>
+                      <strong>123 Crazi Sushi Ave <br /> North Las Vegas, NV, 89084</strong> <br/>
+                    
                       <strong>Phone:</strong> (702) 123-4567
                       <br />
                       <strong>Hours:</strong> 24/7 Daily
-                    </p>
+                    
                   </Card.Text>
                 </Card.Body>
               </Card>

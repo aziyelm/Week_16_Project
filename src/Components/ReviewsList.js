@@ -41,11 +41,11 @@ export default class ReviewsList extends Component {
     return (
       <div>
         <ReviewForm fetchReviews={this.fetchReviews} />
-        {this.state.reviews.map((review) => (
-          <div>
+        {this.state.reviews.map((review, index) => (
+          <div key={index}>
             <Review
             review={review}
-            key={review.id}
+            // key={index}
             updateReview={this.updateReview}
             deleteReview={this.deleteReview}
             />

@@ -1,5 +1,3 @@
-//contains orderform and tablelist
-
 import TablesList from "./TablesList";
 import { Container, Row} from "react-bootstrap";
 

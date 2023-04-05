@@ -13,7 +13,6 @@ class SushiApi {
   };
 
   PUT_TABLE = async (table) => {
-    // console.log(table._id);
     try {
       const response = await fetch(`${SUSHI_ENDPOINT}/${table._id}`, {
         method: "PUT",
@@ -38,7 +37,6 @@ class SushiApi {
         },
         body: JSON.stringify(table),
       });
-      //const data = await response.json();
       return response;
     } catch (e) {
       console.log("error creating table", e);

@@ -11,13 +11,12 @@ export const Review = (props) => {
     <div className="card">
       <div className="card-header">
         <h3>{review.name}</h3>
-        
       </div>
       <div className="card-body">
         {review.text}
       </div>
       <button className="btn btn-danger" onClick={deleteClick}>
-        Delete Review
+        Delete
       </button>
     </div>
   );

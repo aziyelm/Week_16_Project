@@ -37,7 +37,6 @@ class ReviewApi {
         },
         body: JSON.stringify(review),
       });
-      //const data = await response.json();
       return response;
     } catch (e) {
       console.log("error creating review", e);
